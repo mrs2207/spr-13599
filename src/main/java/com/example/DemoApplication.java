@@ -1,6 +1,5 @@
 package com.example;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -20,11 +19,6 @@ public class DemoApplication {
 
         return pspc;
     }
-
-    @Autowired
-    private String  test1;
-    @Autowired
-    private String  test2;
 
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
